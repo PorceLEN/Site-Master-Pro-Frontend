@@ -1,0 +1,20 @@
+main {
+  background: #f5f5f5;
+
+  .global__main {
+    height: 100vh;
+    width: var(--large);
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 6rem;
+
+    .black {
+        background: black;
+        height: 30rem;
+        width: 25rem;
+    }
+  }
+}

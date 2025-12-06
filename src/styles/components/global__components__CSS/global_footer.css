@@ -1,0 +1,32 @@
+.global__footer {
+  height: 13rem;
+  background: white;
+
+  .center__footer {
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    width: var(--large);
+    margin-inline: auto;
+    height: 100%;
+
+    &>div {
+      margin: 2rem 5rem;
+      text-align: left;
+      font-size: 1.4rem;
+      line-height: 2.1;
+      font-weight: bold;
+    }
+  }
+
+  .logo {
+    text-align: center;
+    width: 40%;
+    height: 100%;
+
+    &>img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+}

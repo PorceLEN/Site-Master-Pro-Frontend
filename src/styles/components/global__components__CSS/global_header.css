@@ -1,0 +1,30 @@
+.global__header {
+    height: 35rem;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .center__header {
+
+        height: 80%;
+        width: 45%;
+        display: grid;
+        grid-template-rows: 50% 50%;
+
+        .top__center__header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            font-size: 3rem;
+            color: var(--blue-master-pro);
+        }
+
+        .bottom__center__header {
+            font-size: 1.8rem;
+            text-align: center;
+        }
+    }
+}

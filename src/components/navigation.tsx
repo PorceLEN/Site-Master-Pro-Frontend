@@ -2,7 +2,8 @@ import logo from "../assets/master.png";
 
 export default function Navigation() {
   return (
-    <div className="navigation">
+    <>
+    <nav className="navigation">
       <div className="navigation__container">
         <div className="navigation__logo">
           <div className="logo">
@@ -48,6 +49,8 @@ export default function Navigation() {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
+    <div className="navbar__placeholder"></div>
+    </>
   );
 }

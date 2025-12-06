@@ -1,19 +1,23 @@
 /* NAVIGATION */
 
-@import url("./styles/navigation/navigation.css");
+@import url("./styles/components/navigation/navigation.css");
+
 
 /* GLOBAL */
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  outline: none;
-  list-style: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+@import url("./styles/globals.css");
+@import url("./styles/variables.css");
 
-html {
-  font-size: 10px;
-}
+/* GLOBAL COMPONENTS */
 
+@import url("./styles/components/global__components__CSS/global_header.css");
+@import url("./styles/components/global__components__CSS/global_footer.css");
+@import url("./styles/components/button.css");
+
+/* PAGES */
+
+@import url("./styles/components/catalog/main__catalog.css");
+
+/* FONTS */
+
+@import url("./styles/fonts.css");
