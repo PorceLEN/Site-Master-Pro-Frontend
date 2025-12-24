@@ -1,8 +1,9 @@
-.global__footer {
-  height: 13rem;
+.global__bottom {
+  min-height: 13rem;
   background: white;
+  color: var(--blue-master-pro);
 
-  .center__footer {
+  .center__bottom {
     display: grid;
     grid-template-columns: 33% 33% 34%;
     width: var(--large);
@@ -20,8 +21,7 @@
 
   .logo {
     text-align: center;
-    width: 40%;
-    height: 100%;
+    width: 25%;
 
     &>img {
       width: 100%;

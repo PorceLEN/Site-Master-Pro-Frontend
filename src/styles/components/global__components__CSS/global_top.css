@@ -1,4 +1,4 @@
-.global__header {
+.global__top {
     height: 35rem;
     background: white;
     display: flex;
@@ -6,14 +6,14 @@
     align-items: center;
     text-align: center;
 
-    .center__header {
+    .center__top {
 
         height: 80%;
         width: 45%;
         display: grid;
         grid-template-rows: 50% 50%;
 
-        .top__center__header {
+        .top__center__top {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -22,7 +22,7 @@
             color: var(--blue-master-pro);
         }
 
-        .bottom__center__header {
+        .bottom__center__top {
             font-size: 1.8rem;
             text-align: center;
         }

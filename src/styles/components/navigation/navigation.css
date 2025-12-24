@@ -83,13 +83,12 @@
         .MENU {
           width: 50%;
           display: flex;
-          justify-content: start;
+          justify-content: center;
         }
 
         li {
           display: flex;
           align-items: center;
-          justify-content: start;
           cursor: pointer;
           position: relative;
 
@@ -103,7 +102,7 @@
             bottom: 0;
             left: 0;
             height: 2px;
-            width: 0%;
+            width: 0;
             background: var(--blue-master-pro);
             transition: 0.5s;
           }

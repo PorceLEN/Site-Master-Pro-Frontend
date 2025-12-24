@@ -1,4 +1,24 @@
-.button__global {
+.global__button {
+    border: 1px solid var(--blue-master-pro);
+    border-radius: 1rem;
+    width: 75%;
+    
 
-   
+    a {
+            padding: 0.5rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            font-size: 1.7rem;
+            text-transform: uppercase;
+            border-radius: inherit;
+            transition: 0.3s ease;
+
+            &:hover {
+                background: var(--blue-master-pro);
+                color: white;
+            }
+        }
 }

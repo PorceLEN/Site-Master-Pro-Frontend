@@ -6,10 +6,10 @@ export default function Button({
 }: React.ComponentProps<"div">) {
   return (
     <>
-      <div className="button__global" {...props}>
-        <Link to="/">
+      <div className="global__button" {...props}>
+        <Link to={"/"}>
           <i className="fa-solid fa-arrow-right-from-bracket"></i>
-          <p>{children}</p>
+          {children}
         </Link>
       </div>
     </>

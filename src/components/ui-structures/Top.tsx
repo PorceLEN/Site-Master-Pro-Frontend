@@ -1,16 +1,14 @@
 function Root({ children, ...props }: React.ComponentProps<"div">) {
   return (
-    <header>
-      <div className="global__header" {...props}>
-        <div className="center__header">{children}</div>
+      <div className="global__top" {...props}>
+        <div className="center__top">{children}</div>
       </div>
-    </header>
   );
 }
 
 function Title({ children, ...props }: React.ComponentProps<"div">) {
   return (
-    <div className="top__center__header" {...props}>
+    <div className="top__center__top" {...props}>
       <h1>{children}</h1>
     </div>
   );
@@ -18,18 +16,18 @@ function Title({ children, ...props }: React.ComponentProps<"div">) {
 
 function Description({ children, ...props }: React.ComponentProps<"div">) {
   return (
-    <div className="bottom__center__header" {...props}>
+    <div className="bottom__center__top" {...props}>
       <p>{children}</p>
     </div>
   );
 }
 
-export const Header: typeof Root & {
+export const Top: typeof Root & {
   Title: typeof Title;
   Description: typeof Description;
 } = ({ ...props }) => {
   return <Root {...props}></Root>;
 };
 
-Header.Title = Title;
-Header.Description = Description;
+Top.Title = Title;
+Top.Description = Description;

@@ -10,8 +10,8 @@
 
 /* GLOBAL COMPONENTS */
 
-@import url("./styles/components/global__components__CSS/global_header.css");
-@import url("./styles/components/global__components__CSS/global_footer.css");
+@import url("./styles/components/global__components__CSS/global_top.css");
+@import url("./styles/components/global__components__CSS/global_bottom.css");
 @import url("./styles/components/button.css");
 
 /* PAGES */

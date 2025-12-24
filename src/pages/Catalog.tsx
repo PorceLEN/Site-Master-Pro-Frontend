@@ -1,34 +1,27 @@
-import Footer from "../components/ui-structures/Footer";
-import { Header } from "../components/ui-structures/Header";
+import { Top } from "../components/ui-structures/Top";
 
 export default function Catalog() {
   return (
     <>
-      <Header>
-        <Header.Title>nos catalogues</Header.Title>
-        <Header.Description>
+      <Top>
+        <Top.Title>nos catalogues</Top.Title>
+        <Top.Description>
           Parcourez nos catalogues et découvrez nos sélections de fournitures,
           outillage et matériel, adaptés à chaque situation rencontrée au
           quotidien dans votre travail. Vous y retrouverez également de
           nombreuses informations sur les normes en vigueur et des conseils
-          d'utilisation.
-        </Header.Description>
-      </Header>
+          d'utilisation
+        </Top.Description>
+      </Top>
 
-      <main>
-        <div className="global__main">
-            <article className="black">fzefz</article>
-            <article className="black">fzefz</article>
-            <article className="black">fzefz</article>
-            <article className="black">fzefz</article>
-            <article className="black">fzefz</article>
-            <article className="black">fzefz</article>
-
-            {/* A modifier pour pouvoir changer de catalogue dynamiquement */}
-        </div>
-      </main>
-
-      <Footer/>
+      <div className="global__main">
+        <article className="black">fzefz</article>
+        <article className="black">fzefz</article>
+        <article className="black">fzefz</article>
+        <article className="black">fzefz</article>
+        <article className="black">fzefz</article>
+        <article className="black">fzefz</article>
+      </div>
     </>
-  )
+  );
 }
